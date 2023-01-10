@@ -149,7 +149,7 @@ header h1 {
 }
 
 .contenedor {
-    width: 90%;
+    width: 80%;
     max-width: 80rem;
     margin: 0 auto;
 }
@@ -203,6 +203,11 @@ header h1 {
 @media (min-width: 768px) {
     .contenido-presupuesto p {
         text-align: left;
+    }
+
+    .contenedor {
+        width: 70%;
+        max-width: 80%;
     }
 }
 .contenido-presupuesto p.negativo,
@@ -288,7 +293,7 @@ main {
 }
 
 .contenido-gasto img {
-    width: 10rem;
+    width: 5rem;
 }
 
 .descripcion-gasto p {
